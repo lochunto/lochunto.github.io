@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://www.lochunto.com/archives/index.html</loc>
+    <lastmod>2015-07-30T15:40:15.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lochunto.com/categories/index.html</loc>
+    <lastmod>2015-07-30T15:40:02.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lochunto.com/tags/index.html</loc>
+    <lastmod>2015-07-30T15:39:48.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lochunto.com/2014/07/30/hello-world/</loc>
+    <lastmod>2015-07-30T14:49:17.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.lochunto.com/2015/07/29/iamjt/</loc>
+    <lastmod>2015-07-29T13:03:45.000Z</lastmod>
+  </url>
+  
+</urlset>
