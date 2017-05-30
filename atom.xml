@@ -1,66 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  
-  <title><![CDATA[lochunto]]></title>
-  <subtitle><![CDATA[hello JT]]></subtitle>
+  <title>lochunto</title>
+  <subtitle>hello JT</subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://www.lochunto.com//"/>
-  <updated>2015-08-02T07:49:56.000Z</updated>
-  <id>http://www.lochunto.com//</id>
+  
+  <link href="http://www.lochunto.com/"/>
+  <updated>2017-03-02T18:05:52.000Z</updated>
+  <id>http://www.lochunto.com/</id>
   
   <author>
-    <name><![CDATA[John Lo]]></name>
+    <name>John Lo</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Photos]]></title>
+    <title>Photos</title>
     <link href="http://www.lochunto.com/2015/08/02/photos/"/>
     <id>http://www.lochunto.com/2015/08/02/photos/</id>
     <published>2015-08-01T18:23:28.000Z</published>
-    <updated>2015-08-02T07:49:56.000Z</updated>
-    <content type="html"><![CDATA[<a class="fancybox" href="http://7xim4r.com1.z0.glb.clouddn.com/609a75c9gw1es721r5ra4j21hc0zkb0w.jpg" title="Guangzhou" target="_blank" rel="external"><img src="http://7xim4r.com1.z0.glb.clouddn.com/609a75c9gw1es721r5ra4j21hc0zkb0w.jpg" alt="Guangzhou"></a><span class="caption">Guangzhou</span>]]></content>
+    <updated>2017-03-02T18:05:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<a class="fancybox" href="https://www.baidu.com/img/bd_logo1.png" title="photos" target="_blank" rel="external"><img src="https://www.baidu.com/img/bd_logo1.png" alt="photos"></a><span class="caption">photos</span>]]></content>
+    
     <summary type="html">
-    <![CDATA[<a class="fancybox" href="http://7xim4r.com1.z0.glb.clouddn.com/609a75c9gw1es721r5ra4j21hc0zkb0w.jpg" title="Guangzhou" target="_blank" rel=]]>
+    
+      &lt;a class=&quot;fancybox&quot; href=&quot;https://www.baidu.com/img/bd_logo1.png&quot; title=&quot;photos&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;https://www.baidu.
+    
     </summary>
+    
     
   </entry>
   
   <entry>
-    <title><![CDATA[This is JT!]]></title>
+    <title>This is JT!</title>
     <link href="http://www.lochunto.com/2015/07/29/iamjt/"/>
     <id>http://www.lochunto.com/2015/07/29/iamjt/</id>
     <published>2015-07-29T01:21:07.000Z</published>
     <updated>2015-08-02T06:33:35.000Z</updated>
+    
     <content type="html"><![CDATA[<p>Welcome to <a href="http://www.lochunto.com/">JT’s Page</a>. Nice to meet you!</p>
-<h2 id="First_Start">First Start</h2><h3 id="do_some_coding">do some coding</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hello world!</span><br></pre></td></tr></table></figure>]]></content>
+<h2 id="First-Start"><a href="#First-Start" class="headerlink" title="First Start"></a>First Start</h2><h3 id="do-some-coding"><a href="#do-some-coding" class="headerlink" title="do some coding"></a>do some coding</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hello world!</div></pre></td></tr></table></figure>]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://www.lochunto.com/">JT’s Page</a>. Nice to meet you!</p>
-<h2 id="First_Start">First Start</h2><h3 id="do_some_c]]>
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;http://www.lochunto.com/&quot;&gt;JT’s Page&lt;/a&gt;. Nice to meet you!&lt;/p&gt;
+&lt;h2 id=&quot;First-Start&quot;&gt;&lt;a href=&quot;#First-Start&quot; class=&quot;hea
+    
     </summary>
+    
     
   </entry>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
+    <title>Hello World</title>
     <link href="http://www.lochunto.com/2014/07/30/hello-world/"/>
     <id>http://www.lochunto.com/2014/07/30/hello-world/</id>
     <published>2014-07-30T01:21:07.000Z</published>
-    <updated>2015-07-30T14:49:17.000Z</updated>
+    <updated>2017-03-02T14:53:46.000Z</updated>
+    
     <content type="html"><![CDATA[<p>Hello JT, Hello World!</p>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>Hello JT, Hello World!</p>
-]]>
+    
+      &lt;p&gt;Hello JT, Hello World!&lt;/p&gt;
+
+    
     </summary>
     
-      <category term="base" scheme="http://www.lochunto.com/tags/base/"/>
+      <category term="test" scheme="http://www.lochunto.com/categories/test/"/>
+    
     
       <category term="common" scheme="http://www.lochunto.com/tags/common/"/>
     
-      <category term="test" scheme="http://www.lochunto.com/categories/test/"/>
+      <category term="base" scheme="http://www.lochunto.com/tags/base/"/>
     
   </entry>
   
