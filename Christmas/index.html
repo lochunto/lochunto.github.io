@@ -1,1 +1,136 @@
-
+<!DOCTYPE html>
+<html id="Christmas">
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="mobile-agent" content="format=html5;url=http://lochunto.com/">
+    <meta name="renderer" content="webkit">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="圣诞拉拉拉！">
+    <meta name="keywords" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>圣诞拉拉拉！</title>
+    <script>
+      (function() {
+      	var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+      	var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        var fontSize = Math.min(w, h)/32;
+        if(fontSize > 16) {
+          fontSize = 16;
+        } 
+        document.getElementsByTagName('html')[0].setAttribute("style", "font-size:" + fontSize + "px");
+      }());
+    </script>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="src/css/style.min.css">
+  </head>
+  <body>
+    <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
+<img src="src/img/thumb.png" width='300'>
+  </div>
+  <h1 style="display:none;">圣诞拉拉拉！</h1>
+    <div class="content">
+      <div class="scroller-wrapper">
+        <div class="cloud-container">
+          <div class="cloud-wrapper">
+            <div class="cloud"></div>
+          </div>
+          <div class="cloud-wrapper">
+            <div class="cloud"></div>
+          </div>
+          <div class="cloud-wrapper">
+            <div class="cloud"></div>
+          </div>
+          <div class="cloud-wrapper">
+            <div class="cloud"></div>
+          </div>
+          <div class="cloud-wrapper">
+            <div class="cloud"></div>
+          </div>
+          <div class="cloud-wrapper">
+            <div class="cloud"></div>
+          </div>
+          <div class="cloud-wrapper">
+            <div class="cloud"></div>
+          </div>
+          <div class="cloud-wrapper">
+            <div class="cloud"></div>
+          </div>
+          <div class="cloud-wrapper">
+            <div class="cloud"></div>
+          </div>
+          <div class="cloud-wrapper">
+            <div class="cloud"></div>
+          </div>
+        </div>
+        <div class="scroll-background"></div>
+        <div class="character-wrapper">
+          <div class="idol-body idol-body-0"></div>
+          <div class="idol-head idol-head-0"></div>
+        </div>
+        <div class="pipe-container">
+          <div class="pipe-wrapper">
+            <div class="pipe-0 pipes"></div>
+            <div class="pipe-1 pipes"></div>
+            <div class="pipe-2 pipes"></div>
+            <div class="pipe-3 pipes"></div>
+          </div>
+        </div>
+        <div class="game-start-bar">选择你的角色
+          <div class="idol-selector">
+            <div class="idol-a idols"></div>
+            <div class="idol-b idols grey"></div>
+            <div class="idol-c idols grey"></div>
+            <div id="idol-d" class="idol-d idols grey"></div>
+          </div>
+        </div>
+      </div>
+      <div class="guide-button"></div>
+      <div style="display: none" class="share-button"></div>
+      <div class="rank">0 m</div>
+      <div class="high-rank">best: 0 m</div>
+    </div>
+    <div style="display:none" class="guide">
+      <div class="guide-theme-wrapper">
+        <div class="guide-pic"></div>
+        <div class="guide-idol-wrapper">
+          <div class="guide-idol-head"></div>
+          <div class="guide-idol-stretch"></div>
+        </div>
+        <div class="guide-gesture-l"></div>
+        <div class="guide-gesture-r"></div>
+      </div>
+      <div class="guide-text-1">圣诞吉祥物们被卡在烟囱里了</div>
+      <div class="guide-text-2">点击开始 / 不断上拉</div>
+      <div class="guide-text-3">看看能把它们的脖子拉多长吧</div>
+      <div class="guide-ok">OK</div>
+    </div>
+    <div style="display:none" class="share-panel">
+      <div class="share-panel-body">
+        <div class="share-bg"></div>
+        <div class="share-title">best score</div>
+        <div class="share-rank"></div>
+      </div>
+      <div class="close-share-panel">&times;</div>
+    </div>
+    <footer>
+        <div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
+    <script src="https://s13.cnzz.com/z_stat.php?id=1262093504&web_id=1262093504" language="JavaScript"></script>
+</div>
+    </footer>
+    <script src="src/js/jquery-1.11.1.min.js"></script>
+    <script src="src/js/js.min.js"></script>
+    <script>
+      $.fx.interval = 16;
+      if ('addEventListener' in document) {
+      	document.addEventListener('DOMContentLoaded', function() {
+      		FastClick.attach(document.body);
+      	}, false);
+      }
+    </script>
+  </body>
+</html>
